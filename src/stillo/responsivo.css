@@ -90,11 +90,11 @@
 /* responsive queries para 22.5rem */
 
 
-@media  (width<=394px) 
+@media  (width<=24.625rem) 
 {
     
     .conteiner{
-    width: 394px;
+    width: 24.625rem;
     overflow: hidden;
     } 
     nav{
@@ -158,7 +158,7 @@ article .btn-iniciar{
         font-size: 15px;
         display: flex;
         justify-content: center;
-        margin: 30px 0 30px
+        margin: 1.875rem 0 1.875rem
          0;}
          .conteiner-img .ul-img{
             display: flex;
@@ -168,8 +168,9 @@ article .btn-iniciar{
             }
             
               .logo-marcas{
-              width:180px;
-              margin-bottom: 30px;
+              width:11.25rem;
+              height: 3.125rem;
+              margin-bottom: 1.25rem;
               
             }
 
