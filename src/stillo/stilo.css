@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Urbanist", sans-serif;
+
+}
+
+
+.conteiner{
+  width: 83.125rem;
+margin: 0 auto;
+}
+
+nav{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+height: 8vh;
+}
+
+nav .navbar{
+   display: none; 
+  border: none;
+  background-color: transparent;
+}
+.nav-list{
+  display: flex;
+  align-items: center;
+}
+
+.nav-list .li-img{
+  display: flex;
+
+ margin-left: 2.5rem;
+ font-weight: bold;
+}
+.li-img a{
+  display: flex;
+  gap: .25rem;
+  align-items: center;
+  font-size: .9375rem;
+}
+.li-img .btn-contatos{
+  width: 5.625rem;
+  padding: .9375rem;
+  border-radius:3.125rem;
+  outline: none;
+  border: none;
+ font-weight: bold;
+ color: #fff;
+ background-color: #5eb9f0;
+ transition: 1.3s;
+ box-shadow: rgba(94, 185, 240) 0rem 1.875rem 3.75rem -0.75rem, rgba(10, 149, 235, 0.082) 0rem 1.125rem 2.25rem -1.125rem;
+ }
+ .li-img .btn-contatos:hover{
+  transform: scale(1.1);
+ }
+
+/* inicio do estio da main */
+
+section{
+  display: flex;
+  margin-top: 7.5rem;
+  align-items: center;
+}
+
+article h2{
+  font-size: 3.375rem;
+  margin-left: 6.875rem;
+  width:31.25rem;
+margin: 9.375rem 0 1.875rem 6.875rem; 
+}
+h2 mark{
+  background-color: #fff;
+  color: #5eb9f0;
+}
+article p{
+  text-align: center;
+  font-size: 1.375rem;
+  color:rgb(96,105,123);
+margin: 0 10%;
+}
+ article .btn-iniciar{
+  margin: 1.25rem 23% 0 ;
+  width: 6.25rem;
+  padding: .625rem;
+  border-radius:3.125rem;
+  outline: none;
+  border: none;
+ font-weight: bold;
+ color: #fff;
+ cursor: pointer;
+ background-color: rgb(94, 185, 240);
+ transition: 1.3s;
+ box-shadow: rgba(94, 185, 240) 0rem 1.875rem 3.75rem -0.75rem, rgb(10, 148, 235) 0rem 1.125rem 2.25rem -1.125rem;
+ }
+ article .btn-iniciar:hover{
+  transform: scale(1.1);
+ }
+
+section img{
+  width: 100%;
+}
+span{
+  display: flex;
+  justify-content: center;
+  margin: 5.625rem 0 0 0;
+}
+.conteiner-img .ul-img{
+display: flex;
+justify-content: space-around;
+
+width: 100%;
+}
+
+  .logo-marcas{
+  width:8.125rem;
+  
+}
+
+
+

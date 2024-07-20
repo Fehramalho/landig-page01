@@ -1,0 +1,6 @@
+cor botao rgb(94,185,240)
+cor roda pé rgb(52,63,82)
+
+cor subtitulos rgb(52,63,82)
+cor parágrafos rgb(96,105,123)
+font famyli Urbanist, sans serif

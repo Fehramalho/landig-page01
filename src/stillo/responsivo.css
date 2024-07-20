@@ -1,0 +1,177 @@
+@media (width<=835px){
+     .conteiner{
+        width: 835px;
+       
+        } 
+        nav{
+           justify-content: flex-start; 
+           margin-bottom: 30px
+    
+        }
+    
+    
+    
+        nav .navbar{
+            display: flex; 
+            border: none;
+            background-color: transparent;
+            margin: 30px 6%;
+        }
+    
+     nav .box-logo{
+        
+            display: flex;
+            align-items: center ;
+            padding: 0 0 0 1.875rem;
+    
+        }
+        nav button {
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+            padding: 6%;
+          border: none;
+          background-color: transparent;
+        }
+    
+    .nav-list{
+        display: none;
+    }
+    section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 800px;
+    }
+    article h2{
+        
+        font-size: 3.75rem;
+        width: 80%;
+        margin: .625rem 9.375rem 1.875rem;
+    }
+    article p{
+      
+        font-size: 24px;
+    }
+    article .btn-iniciar{
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
+    }
+        .section-banner{
+            display: flex;
+            flex-direction: column;
+        }
+        span{
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            margin: 30px 0 30px
+             0;}
+
+             .conteiner-img .ul-img{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                }
+                
+                  .logo-marcas{
+                  width:500px;
+                  height: 90px;
+                  margin-bottom: 70px;
+                  margin-top: 70px;
+                  
+                }
+    
+    }
+
+
+/* responsive queries para 22.5rem */
+
+
+@media  (width<=394px) 
+{
+    
+    .conteiner{
+    width: 394px;
+    overflow: hidden;
+    } 
+    nav{
+       justify-content: flex-start; 
+       margin-bottom: 30px
+
+    }
+
+
+
+    nav .navbar{
+        display: flex; 
+        border: none;
+        background-color: transparent;
+        margin: 30px 6%;
+    }
+
+ nav .box-logo{
+    
+        display: flex;
+        align-items: center ;
+        padding: 0 0 0 1.875rem;
+
+    }
+    nav button {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        padding: 6%;
+      border: none;
+      background-color: transparent;
+    }
+
+.nav-list{
+    display: none;
+}
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 300px;
+}
+article h2{
+    font-size: 30px;
+    width: 100%;
+    margin: 10px 35px;
+}
+article p{
+    text-align: justify;
+    font-size: 15px;
+}
+article .btn-iniciar{
+    margin-bottom: 30px;
+}
+    .section-banner{
+        display: flex;
+        flex-direction: column;
+    }
+    span{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        margin: 30px 0 30px
+         0;}
+         .conteiner-img .ul-img{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            }
+            
+              .logo-marcas{
+              width:180px;
+              margin-bottom: 30px;
+              
+            }
+
+}
+    
