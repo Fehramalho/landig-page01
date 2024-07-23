@@ -1,86 +1,86 @@
 @media (max-width: 1024px) {
     .container {
-      width: 100%;
-      padding: 0 20px;
+        width: 100%;
+        padding: 0 20px;
     }
-  
+
     .funcoes {
-      font-size: 2.5rem;
-      margin-left: 2rem;
-      margin-right: 2rem;
-      width: auto;
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: auto;
     }
-  
+
     .card-tools {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
+
     .card-tools article {
-      width: 90%;
-      margin-bottom: 20px;
+        width: 90%;
+        margin-bottom: 20px;
     }
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     nav .navbar {
-      display: block;
+        display: block;
     }
-  
+
     .nav-list {
-      display: none;
+        display: none;
     }
-  
+
     nav.active .nav-list {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 8vh;
-      left: 0;
-      width: 100%;
-      background-color: #fff;
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 8vh;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
-  
+
     .nav-list .li-img {
-      margin: 1rem 0;
+        margin: 1rem 0;
     }
-  
+
     .funcoes {
-      font-size: 2rem;
-      margin: 2rem;
+        font-size: 2rem;
+        margin: 2rem;
     }
-  
+
     .chamada {
-      font-size: 2.5rem;
-      margin: 2rem;
+        font-size: 2.5rem;
+        margin: 2rem;
     }
-  }
-  
-  @media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
     .funcoes {
-      font-size: 1.5rem;
+        font-size: 1.5rem;
     }
-  
+
     .chamada {
-      font-size: 2rem;
+        font-size: 2rem;
     }
-  
+
     .text-1 {
-      font-size: 1rem;
+        font-size: 1rem;
     }
-  
+
     .text-2 {
-      font-size: 1rem;
-      line-height: 1.5rem;
-      width: auto;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        width: auto;
     }
-  
+
     .projects {
-      font-size: 1.5rem;
+        font-size: 1.5rem;
     }
-  
+
     .rodape .text {
-      font-size: 1rem;
+        font-size: 1rem;
     }
-  }
+}
