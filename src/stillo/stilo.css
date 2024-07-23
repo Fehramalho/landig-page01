@@ -13,9 +13,12 @@
   width: 83.125rem;
 margin: 0 auto;
 }
+header{
+  overflow: hidden;
+}
 
 nav{
- 
+ position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,6 +41,7 @@ nav .navbar{
  margin-left: 2.5rem;
  font-weight: bold;
 }
+
 .li-img a{
   display: flex;
   gap: .25rem;
@@ -45,8 +49,9 @@ nav .navbar{
   font-size: .9375rem;
 }
 .li-img .btn-contatos{
+  margin: 0 40px;
   width: 5.625rem;
-  padding: .9375rem;
+  padding: 0.652rem;
   border-radius:3.125rem;
   outline: none;
   border: none;
@@ -60,25 +65,29 @@ nav .navbar{
   transform: scale(1.1);
  }
 
-/* inicio do estio da main */
 
+/* inicio do estio da main */
+main{
+  
+  background-color: #f6f6f7;
+}
 section{
   display: flex;
-  margin-top: 7.5rem;
   align-items: center;
 }
 
-article h2{
+article .funcoes{
+
   font-size: 3.375rem;
   margin-left: 6.875rem;
   width:31.25rem;
 margin: 9.375rem 0 1.875rem 6.875rem; 
 }
-h2 mark{
-  background-color: #fff;
+.funcoes mark{
+  background-color: transparent;
   color: #5eb9f0;
 }
-article p{
+article .text-1{
   text-align: center;
   font-size: 1.375rem;
   color:rgb(96,105,123);
@@ -105,7 +114,7 @@ margin: 0 10%;
 section img{
   width: 100%;
 }
-span{
+.span{
   display: flex;
   justify-content: center;
   margin: 5.625rem 0 0 0;
@@ -121,6 +130,150 @@ width: 100%;
   width:8.125rem;
   
 }
+
+.description{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #5eb9f0;
+  margin:30px 30px;
+}
+.chamada{
+  font-size: 54px;
+  margin: 0 150PX;
+  text-align: center;
+  margin-bottom: 60PX;
+}
+
+.card-tools{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 8px;
+}
+.card-tools article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-tools article img{
+  width: 350px;
+  padding-bottom: 30px;
+}
+.card-tools article h3{
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.card-tools article .text-2{
+  font-size: 23px;
+  text-align: center;
+  line-height: 40px;
+  width: 400px;
+}
+.card-tools article a{
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  color: #5eb9f0;
+  font-weight: bolder;
+}
+.card-tools article .seta-btn{
+  width: 20px;
+}
+.rodape{
+  background-color: #fff;
+
+}
+.rodape .informacao{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-bottom: 100px;
+  width: 50%;
+
+
+}
+.outros{
+  justify-content: flex-start;
+  color: #5eb9f0;
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 30px 30px;
+
+}
+.rodape .projects{
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+
+}
+.rodape .text{
+margin-top: 30px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(97, 91, 91);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn-fim{
+  width: 150px;
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+  background-color: #5eb9f0;
+  color: #fff;
+  padding-block: 12px;
+  margin: 30px;
+  cursor: pointer;
+  transition: 1.54s;
+}
+.btn-fim:hover{
+  transform: scale(1.1);
+}
+aside{
+  margin:0 60px;
+  display: flex;
+  flex-direction: column;
+  
+}
+aside .card-1{
+  display: flex;
+ align-items: center;
+ background-color: #ebeaea4c;
+ box-shadow: rgba(50, 50, 93, 0.197) 0px 30px 60px -12px, rgba(0, 0, 0, 0.163) 0px 18px 36px -18px;
+border-radius: 10px;
+width:500px ;
+cursor: pointer;
+
+}
+.card-1 .number{
+  margin: 30px;
+  background-color: #5eb8f058;
+  padding: 25px;
+  border-radius: 50px;
+  font-size: 25px;
+  color: #fff;
+}
+.card-1.card-4{
+  margin-left: 60px;
+  margin: 30px 60px;
+}
+.card-1 h4{
+  font-size: 18px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+.card-1 p{
+  color: #00000086;
+  font-size: 18px;
+}
+
+
+
 
 
 
