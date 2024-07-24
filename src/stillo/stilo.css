@@ -25,6 +25,10 @@ nav{
 height: 8vh;
 }
 
+.box-logo{
+  margin-left: 30px;
+}
+
 nav .navbar{
    display: none; 
   border: none;
@@ -37,7 +41,6 @@ nav .navbar{
 
 .nav-list .li-img{
   display: flex;
-
  margin-left: 2.5rem;
  font-weight: bold;
 }
@@ -122,7 +125,6 @@ section img{
 .conteiner-img .ul-img{
 display: flex;
 justify-content: space-around;
-
 width: 100%;
 }
 
@@ -260,8 +262,7 @@ cursor: pointer;
   color: #fff;
 }
 .card-1.card-4{
-  margin-left: 60px;
-  margin: 30px 60px;
+margin: 0 0 0 60px;
 }
 .card-1 h4{
   font-size: 18px;
