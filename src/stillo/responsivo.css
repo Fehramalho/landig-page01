@@ -1,372 +1,539 @@
-
-/* Responsivo telas pequenas ate 384px */
-@media (max-width:384px) {
-    .container {
-        width: 384px;
-    }
-
-    nav .navbar {
-        display: flex;
-        margin-right: 6%;
-    }
-
-    .nav-list {
-        display: none;
-    }
-
-    .section-banner {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    article .funcoes {
-        margin: 30px 6%;
-        text-align: unset;
-        font-size: 40px;
-        width: auto;
-    }
-
-    article .btn-iniciar {
-        margin-bottom: 30px;
-    }
-
-    section img {
-        width: 350px;
-        margin: 0 10px;
-    }
-
-    .span {
-        font-size: 15px;
-        margin: 35px 0;
-    }
-
-    .conteiner-img .ul-img {
-        align-items: center;
-        flex-direction: column;
-        margin: 0 10px;
-    }
-
-    .img-logo {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        height: 40px;
-        margin: 30px 0;
-    }
-
-    .chamada {
-        margin: 40px;
-        text-align: start;
-        font-size: 40px;
-    }
-
-    .card-tools {
-        flex-direction: column;
-        align-items: center;
-        margin: 10px;
-    }
-
-    .card-tools article .text-2 {
-        font-size: 18px;
-        margin: 30px 10px;
-        width: 80%;
-    }
-
-    .rodape {
-        display: flex;
-        flex-direction: column;
-        margin: 0 10px;
-    }
-
-    .rodape .informacao {
-        width: 100%;
-    }
-}
-
-.rodape .projects {
-    width: 90%;
-}
-
-.rodape .text {
-    width: 90%;
-}
-
-aside {
-    margin: 0px 20px 0 30px;
-    justify-content: center;
-   margin: none;
-}
-
-aside .card-1 {
-margin: 30px 0;
-width: 100%;
-    height: 90px;
-
-}
-
-.btn-fim{
-    margin-bottom: 0;
-}
-.card-1.card-4{
-    margin: 0 0 0 0px;
-    }
-.card-1 p {
-    font-size: 12px;
-}
-
-/* Responsivo telas Apple */
-
-@media (max-width:431px) {
-    .container {
-        width: 431px;
-    }
-
-    nav .navbar {
-        display: flex;
-        margin-right: 6%;
-    }
-
-    .nav-list {
-        display: none;
-    }
-
-    .section-banner {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    article .funcoes {
-        margin: 30px 6%;
-        text-align: unset;
-        font-size: 40px;
-        width: auto;
-    }
-
-    article .btn-iniciar {
-        margin-bottom: 30px;
-    }
-
-    section img {
-        width: 350px;
-        margin: 0 10px;
-    }
-
-    .span {
-        font-size: 15px;
-        margin: 35px 0;
-    }
-
-    .conteiner-img .ul-img {
-        align-items: center;
-        flex-direction: column;
-        margin: 0 10px;
-    }
-
-    .img-logo {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        height: 40px;
-        margin: 30px 0;
-    }
-
-    .chamada {
-        margin: 40px;
-        text-align: start;
-        font-size: 40px;
-    }
-
-    .card-tools {
-        flex-direction: column;
-        align-items: center;
-        margin: 10px;
-    }
-
-    .card-tools article .text-2 {
-        font-size: 18px;
-        margin: 30px 10px;
-        width: 80%;
-    }
-
-    .rodape {
-        display: flex;
-        flex-direction: column;
-        margin: 0 10px;
-    }
-
-    .rodape .informacao {
-        width: 100%;
-    }
-}
-
-.rodape .projects {
-    width: 90%;
-}
-
-.rodape .text {
-    width: 90%;
-}
-
-aside {
-    margin: 0px 20px 0 30px;
-    justify-content: center;
-   margin: none;
-}
-
-aside .card-1 {
-margin: 30px 0;
-width: 100%;
-    height: 90px;
-
-}
-
-.btn-fim{
-    margin-bottom: 0;
-}
-.card-1.card-4{
-    margin: 0 0 0 0px;
-    }
-.card-1 p {
-    font-size: 12px;
-}
-
-
-/* Responsivo telax maximas 834 */
-@media (max-width:835px) {
-    .container {
-        width:835px;
-    }
-
-    nav .navbar {
-        display: flex;
-        margin-right: 6%;
-    }
-
-    .nav-list {
-        display: none;
-    }
-
-    /* .section-banner {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    } */
-article{width: 50%;}
-
-    article .funcoes {
-        margin: 30px ;
-        text-align: unset;
-        font-size: 35px;
-        width: auto;
-    }
-
-    article .btn-iniciar {
-        margin-bottom: 30px;
-    }
-
-    section img {
-        width: 450px;
-        margin: 0 10px;
-    }
-
-    .span {
-        font-size: 20px;
-        margin: 35px 0;
-    }
-
-    .conteiner-img .ul-img {
-        align-items: center;
-        margin: 0 10px;
-    }
-
-    .img-logo {
-        display: flex;
-        align-items: center;
-        width: 95px;
-        height: 40px;
-        margin: 30px 0;
-    }
-
-    .chamada {
-        margin: 40px;
-        text-align: start;
-        font-size: 40px;
-    }
-
-    .card-tools {
-        flex-direction: column;
-        align-items: center;
-        /* margin: 10px; */
-    }
-    .card-tools article img{
-        width:700px;
-        padding-bottom: 30px;
-        margin-top: 30px;
-      }
-      .card-tools article h3{
-        margin-bottom: 30px;
-        font-size: 45px;
-        margin-top: 30px;
-      }
-    .card-tools article .text-2 {
-        font-size: 30px;
-        margin: 30px 10px;
-        width: 600px;
-    }
-    .card-tools article a{
-        font-size: 20px;
-        align-items: center;
-       
-       
-    }
-
-    .rodape {
-        display: flex;
-        flex-direction: column;
-        margin: 0 10px;
-    }
-
-    .rodape .informacao {
-        width: 100%;
-    }
-}
-
-.rodape .projects {
-    width: 90%;
-}
-
-.rodape .text {
-    width: 90%;
-    font-size: 30px;
-}
-
-aside {
-    margin: 0px 20px 0 30px;
-    justify-content: center;
-   margin: none;
-}
-
-aside .card-1 {
  
-margin: 30px 0 30px 0;
-width: 700px;
-    height: 130px;
-    margin-bottom: 30px;
+@media (max-width:385px){
+    :root{
+        --bgbutton-:rgb(94, 185, 240);
+        --colorbutton-:rgb(255, 255, 255);
+        --paragrafos-: rgb(96,105,123);
+        --subtitulos-:rgb(52,63,82);
+        --footer-:rgb(52,63,82);
+        --font-principal-:font-family: "Urbanist", sans serif;}
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+   padding: 0 3%;
+}
+/* menu hamburguer */
+nav .btn-hamburguer{
+    display: flex;
+}
+/* menu hamburguer */
+nav .container-links{
+    display: none;
 
 }
-
-.btn-fim{
-    margin-bottom: 0;
+header .bg-onda{
+    width: 100%;
 }
-.card-1 h4{
-    font-size: 30px;
+/* INICIO ESTILIZAÇÃO MAIN */
+/* SECÇÃO CENTRAL INICIO */
+.apresentacao{
+   
+   justify-content: center;
+    flex-direction: column;;
 }
-
-.card-1 p {
+.apresentacao .especializacao{
+    width: 100%;
+    margin: 30px 10px;
+    text-align: start;
+}
+ .especializacao h1{
+  margin: 30px auto;
+   width: 90%;
+    text-align: initial;
+    justify-content: center;
+    font-size:30px; 
+}
+.especializacao p{
     font-size: 20px;
+    width: 90%;
+ 
+}
+.especializacao .btn-iniciar{
+margin-left: 150px;
+}
+
+main .apresentacao img{   
+    width: 100%;
+    padding: 30px 10px;
+} 
+
+/* SECÇÃO CENTRAL FIM */
+
+/* COMENTARIO INICIO */
+.comentario{
+    margin-top: 40px;
+    font-size: 15px;
+}
+/* COMENTARIO FIM */
+
+/* CONTAINER DE IMAGENS INICIO */
+.container-imagens{
+    gap: 40px;
+    flex-direction: column;
+    margin:60px 150px;
+}
+.container-imagens .lista-logo{
+width: 200px;
+height: 40px;
+}
+/* CONTAINER DE IMAGENS FIM */
+
+/* COMENTARIO - 2 INICIO */
+.comentario-2{
+    color: var(--bgbutton-);
+    font-size: 18px;
     font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+/* COMENTARIO - 2 FIM */
+.chamada{
+    font-size:30px;
+   text-align: start;
+    width:90%;
+    margin: 0 20px;
+}
+/* OQUE OFERECEMOS INICIO */
+.servicos-oferecidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 150px;
+}
+.servicos-oferecidos .card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 338px;
+}
+
+.servicos-oferecidos .card .servico{
+    padding-block: 30px;
+    color: var(--subtitulos-);
+}
+.servicos-oferecidos .card p{
+    font-size: 17px;
+    font-weight: bolder;
+    color: var(--paragrafos-);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.servicos-oferecidos .card .seta-direita{
+    margin-bottom: 30px ;
+}
+/* OQUE OFERECEMOS FIM */
+
+/* SETOR FINAL (INICIO) */
+.solucoes-oferecidas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 90px;
+    margin-inline: 20px;
+}
+.solucoes-oferecidas .texto-descritivo{
+    width: 100%;
+    padding: 0 ;
+ 
+}
+.solucoes-oferecidas .texto-descritivo .comentario-3{
+    font-size: 18px;
+  margin-left: 10PX;
+    
+}
+.solucoes-oferecidas .texto-descritivo h2{
+    font-size:30px;
+    align-items: center;
+    margin: 10px 20px 30px 20px;
+
+}
+.solucoes-oferecidas .texto-descritivo p{
+    margin: 10px 20px 30px 20px;
+
+}
+.solucoes-oferecidas .texto-descritivo .btn-informacoes{
+    margin-bottom: 30px;
+   margin-left: 10px;
+}
+/* SETOR FINAL (FINAL) */
+/* SETOR FINAL - CARDS (INICIO) */
+
+aside .cartoes{
+    width: 90%;
+    margin-inline: 10px;
+   
+}
+aside .cartoes.cartao-centro{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-inline: 10px;
+}
+
+}
+
+/* RESPONSIVO TELA MAIORES */
+ 
+@media (max-width:431px){
+    :root{
+        --bgbutton-:rgb(94, 185, 240);
+        --colorbutton-:rgb(255, 255, 255);
+        --paragrafos-: rgb(96,105,123);
+        --subtitulos-:rgb(52,63,82);
+        --footer-:rgb(52,63,82);
+        --font-principal-:font-family: "Urbanist", sans serif;}
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+   padding: 0 3%;
+}
+/* menu hamburguer */
+nav .btn-hamburguer{
+    display: flex;
+}
+/* menu hamburguer */
+nav .container-links{
+    display: none;
+
+}
+header .bg-onda{
+    width: 100%;
+}
+/* INICIO ESTILIZAÇÃO MAIN */
+/* SECÇÃO CENTRAL INICIO */
+.apresentacao{
+   
+   justify-content: center;
+    flex-direction: column;;
+}
+.apresentacao .especializacao{
+    width: 100%;
+    margin: 30px 10px;
+    text-align: start;
+}
+ .especializacao h1{
+  margin: 30px auto;
+   width: 90%;
+    text-align: initial;
+    justify-content: center;
+    font-size:30px; 
+}
+.especializacao p{
+    font-size: 20px;
+    width: 90%;
+ 
+}
+.especializacao .btn-iniciar{
+margin-left: 150px;
+}
+
+main .apresentacao img{   
+    width: 100%;
+    padding: 30px 10px;
+} 
+
+/* SECÇÃO CENTRAL FIM */
+
+/* COMENTARIO INICIO */
+.comentario{
+    margin-top: 40px;
+    font-size: 15px;
+}
+/* COMENTARIO FIM */
+
+/* CONTAINER DE IMAGENS INICIO */
+.container-imagens{
+    gap: 40px;
+    flex-direction: column;
+    margin:60px 150px;
+}
+.container-imagens .lista-logo{
+width: 200px;
+height: 40px;
+}
+/* CONTAINER DE IMAGENS FIM */
+
+/* COMENTARIO - 2 INICIO */
+.comentario-2{
+    color: var(--bgbutton-);
+    font-size: 18px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+/* COMENTARIO - 2 FIM */
+.chamada{
+    font-size:30px;
+   text-align: start;
+    width:90%;
+    margin: 0 20px;
+}
+/* OQUE OFERECEMOS INICIO */
+.servicos-oferecidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 150px;
+}
+.servicos-oferecidos .card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 338px;
+}
+
+.servicos-oferecidos .card .servico{
+    padding-block: 30px;
+    color: var(--subtitulos-);
+}
+.servicos-oferecidos .card p{
+    font-size: 17px;
+    font-weight: bolder;
+    color: var(--paragrafos-);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.servicos-oferecidos .card .seta-direita{
+    margin-bottom: 30px ;
+}
+/* OQUE OFERECEMOS FIM */
+
+/* SETOR FINAL (INICIO) */
+.solucoes-oferecidas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 90px;
+    margin-inline: 20px;
+}
+.solucoes-oferecidas .texto-descritivo{
+    width: 100%;
+    padding: 0 ;
+}
+.solucoes-oferecidas .texto-descritivo .comentario-3{
+    font-size: 18px;
+  margin-left: 10PX;
+    
+}
+.solucoes-oferecidas .texto-descritivo h2{
+    font-size:30px;
+    align-items: center;
+    margin: 10px 10px 30px ;
+
+}
+.solucoes-oferecidas .texto-descritivo p{
+    margin: 10px 10px 30px ;
+
+}
+.solucoes-oferecidas .texto-descritivo .btn-informacoes{
+    margin-bottom: 30px;
+   margin-left: 10px;
+}
+/* SETOR FINAL (FINAL) */
+/* SETOR FINAL - CARDS (INICIO) */
+
+aside .cartoes{
+    width: 90%;
+    margin-inline: 10px;
+   
+}
+aside .cartoes.cartao-centro{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-inline: 10px;
+}
+
 }
 
 
+/* Responsivo tablet */
+@media (max-width:52.1875rem){
+    :root{
+        --bgbutton-:rgb(94, 185, 240);
+        --colorbutton-:rgb(255, 255, 255);
+        --paragrafos-: rgb(96,105,123);
+        --subtitulos-:rgb(52,63,82);
+        --footer-:rgb(52,63,82);
+        --font-principal-:font-family: "Urbanist", sans serif;}
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+   padding: 0 3%;
+}
+/* menu hamburguer */
+nav .btn-hamburguer{
+    display: flex;
+}
+/* menu hamburguer */
+nav .container-links{
+    display: none;
+
+}
+header .bg-onda{
+    width: 100%;
+}
+/* INICIO ESTILIZAÇÃO MAIN */
+/* SECÇÃO CENTRAL INICIO */
+.apresentacao{
+   
+   justify-content: center;
+    flex-direction: column;;
+}
+.apresentacao .especializacao{
+    width: 100%;
+    margin: 1.875em .625em;
+    text-align: start;
+}
+ .especializacao h1{
+  margin: 1.875rem auto;
+   width: 90%;
+    text-align: initial;
+    justify-content: center;
+    font-size:1.875em; 
+}
+.especializacao p{
+    font-size: 1.25em;
+    width: 90%;
+ 
+}
+.especializacao .btn-iniciar{
+margin-left: 9.375em;
+}
+
+main .apresentacao img{   
+    width: 600px;
+    padding: 1.875em .625em;
+} 
+
+/* SECÇÃO CENTRAL FIM */
+
+/* COMENTARIO INICIO */
+.comentario{
+    margin-top: 2.5em;
+    font-size: .9375em;
+}
+/* COMENTARIO FIM */
+
+/* CONTAINER DE IMAGENS INICIO */
+.container-imagens{
+    gap: 2.5rem;
+    flex-direction: column;
+    margin:3.75em 9.37em;
+}
+.container-imagens .lista-logo{
+width: 12.5em;
+height: 2.5em;
+}
+/* CONTAINER DE IMAGENS FIM */
+
+/* COMENTARIO - 2 INICIO */
+.comentario-2{
+    color: var(--bgbutton-);
+    font-size: 1.125em;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin: 2.5em 0;
+}
+/* COMENTARIO - 2 FIM */
+.chamada{
+    font-size:1.875em;
+   text-align: start;
+    width:90%;
+    margin: 0 1.25em;
+}
+/* OQUE OFERECEMOS INICIO */
+.servicos-oferecidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5em 9.375em;
+}
+.servicos-oferecidos .card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 21.125em;
+}
+
+.servicos-oferecidos .card .servico{
+    padding-block: 1.875rem;
+    color: var(--subtitulos-);
+}
+.servicos-oferecidos .card p{
+    font-size: 1.0625rem;
+    font-weight: bolder;
+    color: var(--paragrafos-);
+    text-align: center;
+    margin-bottom: 1.875rem;
+}
+.servicos-oferecidos .card .seta-direita{
+    margin-bottom: 1.875rem ;
+}
+/* OQUE OFERECEMOS FIM */
+
+/* SETOR FINAL (INICIO) */
+.solucoes-oferecidas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5.625rem;
+    margin-inline: 1.25rem;
+}
+.solucoes-oferecidas .texto-descritivo{
+    width: 100%;
+    padding: 0 ;
+}
+.solucoes-oferecidas .texto-descritivo .comentario-3{
+    font-size: 1.125rem;
+  margin-left: 10PX;
+    
+}
+.solucoes-oferecidas .texto-descritivo h2{
+    font-size:1.875rem;
+    align-items: center;
+    margin: .625rem .625rem 1.875rem ;
+
+}
+.solucoes-oferecidas .texto-descritivo p{
+    margin: .625rem .625rem 1.875rem ;
+
+}
+.solucoes-oferecidas .texto-descritivo .btn-informacoes{
+    margin-bottom: 1.875rem;
+   margin-left: .625rem;
+}
+/* SETOR FINAL (FINAL) */
+/* SETOR FINAL - CARDS (INICIO) */
+
+aside .cartoes{
+    width: 90%;
+    margin-inline: .625rem;
+   
+}
+aside .cartoes.cartao-centro{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-inline: .625em;
+}
+
+}
