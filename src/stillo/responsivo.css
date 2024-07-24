@@ -32,7 +32,6 @@ header .bg-onda{
 /* INICIO ESTILIZAÇÃO MAIN */
 /* SECÇÃO CENTRAL INICIO */
 .apresentacao{
-   
    justify-content: center;
     flex-direction: column;;
 }
@@ -55,11 +54,12 @@ header .bg-onda{
 }
 .especializacao .btn-iniciar{
 margin-left: 150px;
+font-size: 15px;
 }
 
-main .apresentacao img{   
-    width: 100%;
-    padding: 30px 10px;
+main .apresentacao img{  
+    max-width: 95%;
+    
 } 
 
 /* SECÇÃO CENTRAL FIM */
@@ -239,8 +239,7 @@ margin-left: 150px;
 }
 
 main .apresentacao img{   
-    width: 100%;
-    padding: 30px 10px;
+    max-width: 95%;
 } 
 
 /* SECÇÃO CENTRAL FIM */
@@ -403,32 +402,32 @@ header .bg-onda{
     text-align: start;
 }
  .especializacao h1{
-  margin: 1.875rem auto;
+  margin: 30px auto 30px 150px;
    width: 90%;
     text-align: initial;
     justify-content: center;
-    font-size:1.875em; 
+    font-size:54px; 
 }
 .especializacao p{
-    font-size: 1.25em;
+    font-size: 35px;
     width: 90%;
  
 }
 .especializacao .btn-iniciar{
-margin-left: 9.375em;
+margin-right: 450px;
+margin-bottom: 40px;
 }
 
 main .apresentacao img{   
-    width: 600px;
-    padding: 1.875em .625em;
-} 
+    max-width: 95%;
+}   
 
 /* SECÇÃO CENTRAL FIM */
 
 /* COMENTARIO INICIO */
 .comentario{
     margin-top: 2.5em;
-    font-size: .9375em;
+    font-size: 25px;
 }
 /* COMENTARIO FIM */
 
@@ -437,6 +436,7 @@ main .apresentacao img{
     gap: 2.5rem;
     flex-direction: column;
     margin:3.75em 9.37em;
+    
 }
 .container-imagens .lista-logo{
 width: 12.5em;
@@ -447,7 +447,7 @@ height: 2.5em;
 /* COMENTARIO - 2 INICIO */
 .comentario-2{
     color: var(--bgbutton-);
-    font-size: 1.125em;
+    font-size: 30px;
     font-weight: bolder;
     display: flex;
     justify-content: center;
@@ -455,7 +455,7 @@ height: 2.5em;
 }
 /* COMENTARIO - 2 FIM */
 .chamada{
-    font-size:1.875em;
+    font-size:45px;
    text-align: start;
     width:90%;
     margin: 0 1.25em;
@@ -465,28 +465,37 @@ height: 2.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2.5em 9.375em;
+    padding: 0;
+    
 }
 .servicos-oferecidos .card{
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 21.125em;
+    
+}
+.servicos-oferecidos .card .designer-imagens{
+    margin: 40px 20px;
+width: 800px;
 }
 
 .servicos-oferecidos .card .servico{
     padding-block: 1.875rem;
-    color: var(--subtitulos-);
+   font-size: 45px;
+
 }
 .servicos-oferecidos .card p{
-    font-size: 1.0625rem;
-    font-weight: bolder;
-    color: var(--paragrafos-);
-    text-align: center;
-    margin-bottom: 1.875rem;
+    font-size: 30px;
+    width: 800px;
 }
-.servicos-oferecidos .card .seta-direita{
+.servicos-oferecidos .card a{
+    font-size: 20px;
+   display: flex;
+   
+}
+.servicos-oferecidos .card a .seta-direita{
     margin-bottom: 1.875rem ;
+    width: 20px;
 }
 /* OQUE OFERECEMOS FIM */
 
@@ -508,16 +517,19 @@ height: 2.5em;
     
 }
 .solucoes-oferecidas .texto-descritivo h2{
-    font-size:1.875rem;
+    font-size:45px;
     align-items: center;
     margin: .625rem .625rem 1.875rem ;
 
 }
 .solucoes-oferecidas .texto-descritivo p{
     margin: .625rem .625rem 1.875rem ;
+    font-size: 30px;
 
 }
 .solucoes-oferecidas .texto-descritivo .btn-informacoes{
+    width: 150px;
+    font-size: 18px;
     margin-bottom: 1.875rem;
    margin-left: .625rem;
 }
@@ -525,15 +537,25 @@ height: 2.5em;
 /* SETOR FINAL - CARDS (INICIO) */
 
 aside .cartoes{
-    width: 90%;
+    width: 700px;
     margin-inline: .625rem;
    
 }
 aside .cartoes.cartao-centro{
-    width: 90%;
+   width: 43.75rem;
     display: flex;
-    justify-content: center;
     margin-inline: .625em;
+}
+aside .cartoes .number{
+    margin-inline:40px;
+}
+aside .cartoes h4{
+    font-size: 25px;
+}
+aside .cartoes .cartao-texto{
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--paragrafos-);
 }
 
 }

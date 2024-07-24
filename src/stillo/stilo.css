@@ -23,11 +23,11 @@ a{
     color: var(--paragrafos-);
     font-weight: bold;
     display: flex;
-    gap:5px;
+    gap:.3125rem;
 }
 /* estilização links fim */
 .container{
-    width: 1330px;
+    width: 83.125rem;
 }
 nav{
     
@@ -35,7 +35,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 150px;
+    padding: 0 9.375rem;
 }
 
 /* menu hamburguer */
@@ -48,16 +48,16 @@ nav .container-links{
     align-items: center;
     justify-content: space-around;
     width: 50%;
-    margin-right: 100px;
+    margin-right: 6.25rem;
 }
 
 /* Botão de contatos inicio */
 nav .container-links .btn-contatos{
     background-color: var(--bgbutton-);
     border: none;
-    width: 90px;
-    padding-block: 9px;
-    border-radius: 50px;
+    width: 5.625rem;
+    padding-block: .5625rem;
+    border-radius: 3.125rem;
     cursor: pointer;
     transition: 154ms;
     color:var(--colorbutton-) ;
@@ -76,7 +76,7 @@ nav .container-links .btn-contatos:hover{
     
 }
 .apresentacao .especializacao{
-    padding: 0 20px;
+    padding: 0 1.25rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -85,33 +85,33 @@ nav .container-links .btn-contatos:hover{
 }
 .especializacao h1{
     color: var(--subtitulos-);
-    width: 500px;
-    font-size:45px;
+    width: 31.25rem;
+    font-size:2.8125rem;
     display: flex;
     flex-direction: column;
-    margin: 30px 0;
+    margin: 1.875rem 0;
 }
 h1 mark{
     background-color: var(--colorbutton-);
     color: var(--bgbutton-);
 }
 .especializacao p{
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: var(--paragrafos-);
-    width: 500px;
-    margin-bottom: 30px;
+    width: 31.25rem;
+    margin-bottom: 1.875rem;
 }
 .especializacao .btn-iniciar{
     background-color: var(--bgbutton-);
     border: none;
-    width: 100px;
-    padding-block: 15px;
-    border-radius: 50px;
+    width: 6.25rem;
+    padding-block: .9375rem;
+    border-radius: 3.125rem;
     cursor: pointer;
     transition: 154ms;
     color:var(--colorbutton-) ;
     font-weight: bolder;
-    margin-right: 350px;
+    margin-right: 21.875rem;
 }
 .especializacao .btn-iniciar:hover{
     transform: scale(1.1);
@@ -125,8 +125,8 @@ h1 mark{
 .comentario{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    font-size: 18px;
+    margin-top: 2.5rem;
+    font-size: 1.125rem;
     color: var(--paragrafos-);
 }
 /* COMENTARIO FIM */
@@ -136,7 +136,7 @@ h1 mark{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    margin:60px 150px;
+    margin:3.75rem 9.375rem;
 }
 .container-imagens .lista-logo{
 width: 100%;
@@ -146,15 +146,15 @@ width: 100%;
 /* COMENTARIO - 2 INICIO */
 .comentario-2{
     color: var(--bgbutton-);
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: bolder;
     display: flex;
     justify-content: center;
-    margin: 40px 0;
+    margin: 2.5rem 0;
 }
 /* COMENTARIO - 2 FIM */
 .chamada{
-    font-size:45px;
+    font-size:2.8125rem;
     color: var(--subtitulos-);
     text-align: center;
     display: flex;
@@ -166,28 +166,28 @@ width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 40px 150px;
+    padding: 2.5rem 9.375rem;
 }
 .servicos-oferecidos .card{
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 338px;
+    width: 21.125rem;
 }
 
 .servicos-oferecidos .card .servico{
-    padding-block: 30px;
+    padding-block: 1.875rem;
     color: var(--subtitulos-);
 }
 .servicos-oferecidos .card p{
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: bolder;
     color: var(--paragrafos-);
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 .servicos-oferecidos .card .seta-direita{
-    margin-bottom: 30px ;
+    margin-bottom: 1.875rem ;
 }
 /* OQUE OFERECEMOS FIM */
 
@@ -195,41 +195,42 @@ width: 100%;
 .solucoes-oferecidas{
     display: flex;
     align-items: center;
-    margin-bottom: 90px;
+    margin-left: 5.625rem;
+    margin-bottom: 5.625rem;
 }
 .solucoes-oferecidas .texto-descritivo{
     width: 55%;
-    padding:0 30px 0 150px;
+    padding:0 1.875rem 0 9.375rem;
     
 }
 .solucoes-oferecidas .texto-descritivo .comentario-3{
     color: var(--bgbutton-);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bolder;  
     
 }
 .solucoes-oferecidas .texto-descritivo h2{
     
-    font-size:40px;
+    font-size:2.5rem;
     color: var(--subtitulos-);
-    margin: 10px 80px 30px 0;
+    margin: .625rem 5rem 1.875rem 0;
 }
 .solucoes-oferecidas .texto-descritivo p{
-    font-size: 18px;
+    font-size: 1.125rem;
     color: var(--paragrafos-);
-    margin: 10px 150px 20px 0;
+    margin: .625rem 9.375rem 1.25rem 0;
 }
 .solucoes-oferecidas .texto-descritivo .btn-informacoes{
     background-color: var(--bgbutton-);
     border: none;
-    width: 120px;
-    padding-block: 10px;
-    border-radius: 50px;
+    width: 7.5rem;
+    padding-block: .625rem;
+    border-radius: 3.125rem;
     cursor: pointer;
     transition: 154ms;
     color:var(--colorbutton-) ;
     font-weight: bolder;
-    margin-right: 350px;
+    margin-right: 21.875rem;
 }
 /* SETOR FINAL (FINAL) */
 /* SETOR FINAL - CARDS (INICIO) */
@@ -238,21 +239,21 @@ aside .cartoes{
     width: 100%;
     display: flex;
     align-items: center;
-    margin: 0 0 40px;
+    margin: 0 0 2.5rem;
     background-color: #ffffff00;
     border: none;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: .625rem;
+    box-shadow: rgba(0, 0, 0, 0.07) 0rem .0625rem .125rem, rgba(0, 0, 0, 0.07) 0rem .125rem .25rem, rgba(0, 0, 0, 0.07) 0rem .25rem .5rem, rgba(0, 0, 0, 0.07) 0rem .5rem 1rem, rgba(0, 0, 0, 0.07) 0rem 1rem 2rem, rgba(0, 0, 0, 0.07) 0rem 2rem 4rem;
 }
 aside .cartoes.cartao-centro{
 position: static;
-margin-left: 30px;
+margin-left: 1.875rem;
 }
 
 aside .cartoes .number{
-    padding: 15px;
-    border-radius: 50px;
-    margin: 10px;
+    padding: .9375rem;
+    border-radius: 3.125rem;
+    margin: .625rem;
 
     background-color:rgba(94, 184, 240, 0.288) ;
     color: var(--bgbutton-);
